@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "200px", // Добавляем точку останова для 376px
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
